@@ -5,6 +5,12 @@ This repository contains the code of GESS, introduced in __Investigating Graph E
 The implementation requires a dataset in JSON format. The given dataset can be converted to JSON using `parse_data.py`
 
 
+## Accessing Dataset
+
+The Dataset used for these experiments is published under CC BY 4.0 license and can be accessed here : <https://doi.org/10.6084/m9.figshare.16669234.v1>.
+It contains ACFGs in NumPy format and therefore needs to be converted to JSON in order to be used by this implementation.
+
+
 ## Parsing data to JSON format
 
 GESS take ACFGs in JSON format, with sparse matrices. This requires to set the parameter `adjacency_matrix` in `parse_data` to **False**.
