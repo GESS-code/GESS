@@ -1,11 +1,11 @@
 # GESS
 
-This repository contains the code of GESS, introduced in __Investigating Graph Embeddings Methods for Cross-Platform Binary Code Similarity Detection__. The details of the convolutional neural network are in `cnn.py`. The model can be trained and tested using `main.py`.
+This repository contains the code of GESS, introduced in __Investigating Graph Embedding Methods for Cross-Platform Binary Code Similarity Detection__. The details of the convolutional neural network are in `cnn.py`. The model can be trained and tested using `main.py`.
 
 The implementation requires a dataset in JSON format. The given dataset can be converted to JSON using `parse_data.py`
 
 
-## Accessing Dataset
+## Accessing the Dataset
 
 The Dataset used for these experiments is published under CC BY 4.0 license and can be accessed here : <https://doi.org/10.6084/m9.figshare.16669234.v1>.
 It contains ACFGs in NumPy format and therefore needs to be converted to JSON in order to be used by this implementation.
