@@ -18,7 +18,7 @@ import faiss
 # Parameters
 
 """
-Trains a model using Damian's idea of validation : validate maximising
+Trains a model using a new idea of validation : validate maximising
 the area under the Top-K curve
 
 Trains faster and yields a better Top-K curve than main.py, but lower AUC
@@ -29,7 +29,7 @@ disable_training = False
 disable_testing = False
 enable_evaluation = False
 min_no_vertices = 5
-model = f'damian.h5'
+model = "MODEL.h5"
 mini_batch_size = 128
 learning_rate = 0.0005
 no_training_pairs = 1

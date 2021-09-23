@@ -19,7 +19,7 @@ import sys
 # Dataset and model. If model exists, it will be used and retrained starting from
 # where it was. Otherwise it will be created
 input = sys.argv[1]
-model = f'{input}-dPS.h5'
+model = f'{input}-GESS.h5'
 
 # Training and testing.
 # Attention : Disabling training when the model doesn't exist will result in an error

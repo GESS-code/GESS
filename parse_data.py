@@ -17,7 +17,7 @@ Redirect stdout to a JSON file to store the parsed data
 ## Parameters
 
 # Folder containing the ACFGs in npz format (Damian's format)
-input_dir = "/home/victor.cochard/all-data/acfgs"
+input_dir = "PATH TO FOLDER CONTAINING ACFGS"
 
 # Output dense matrices (for techniques like DiffPool) or just sparse ones (for techniques in pyTorch, or Patchy-San and Gemini adapted)
 adjacency_matrix = False

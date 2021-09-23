@@ -21,7 +21,7 @@ Computes the embeddings of the functions in a dataset.
 ## Parameters
 
 input = sys.argv[1]     # Dataset
-model = f'damian.h5'    # Trained model
+model = "MODEL"         # Trained model
 
 with tf.device("/GPU:0"):#strategy.scope():#if __name__ == "__main__":
     from helpers import *
