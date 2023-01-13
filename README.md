@@ -43,3 +43,7 @@ The file `similarities.py` uses the embeddings computed by `compute_embeddings.p
 ## Train specifically to improve Top-K Precision/Recall
 
 Using `validate_differently.py` instead of `main.py` in order to train a model will return a model with lower ROC AUC, but trained faster and with better Top-K validation and recalls.
+
+## Package versions
+
+The code originally depends on TensorFlow 2.3.0, PyTorch 1.7.1 and PyTorch-Geometric 1.7.0
